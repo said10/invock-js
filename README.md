@@ -56,7 +56,7 @@ To start with invock-js you have to clone the project GET_STARTED in order to us
 git clone https://github.com/said10/invock-js-get-started.git
 npm install
 ```
-The directory contains all the items you will need to get started :/
+The directory contains all the items you will need to get started :
 
 ```js
 npm start
