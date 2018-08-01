@@ -3,6 +3,8 @@ Javascript Framework for building User Interface Components
 
 It's Aplha Version not ready for production.
 
+NB : Please the Issues in github if a problem appear.[invock-js Issues](https://github.com/said10/invock-js/issues)
+
 # Table of contents
 
 - [Installation](#installation)
@@ -814,11 +816,11 @@ comming soon
 comming soon
 
 ## Ressources
-[dom](https://github.com/said10/domJS)
-[parser](https://github.com/said10/parserHTML)
-[Sample UI](https://github.com/said10/sample-ui)
-Template Language insipred by [jinga2](http://jinja.pocoo.org/docs/2.10/)
-Event System insipred by [backbone.js](http://backbonejs.org/)
+- [dom](https://github.com/said10/domJS)
+- [parser](https://github.com/said10/parserHTML)
+- [Sample UI](https://github.com/said10/sample-ui)
+- Template Language insipred by [jinga2](http://jinja.pocoo.org/docs/2.10/)
+- Event System insipred by [backbone.js](http://backbonejs.org/)
 
 ## License
 GPU - [Said10](https://github.com/said10/)
