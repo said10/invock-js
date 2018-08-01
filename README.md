@@ -140,7 +140,35 @@ render() {
     `;
 }
 ```
-the Filter module contains by default more than 22 ready-to-use filter to be able to do the basic treatments without you developing them every time, these filters accept parameters to give you more flexibility and control over the rendering of your data in the components.
+the Filter module contains by default more than 21 ready-to-use filter to be able to do the basic treatments without you developing them every time, these filters accept parameters to give you more flexibility and control over the rendering of your data in the components : 
+
+- add : Adds the argument to the value
+- multiply : multiply the argument to the value
+- length : Returns the length of the value. This works for both strings and lists.
+- addSlashes : Adds slashes before quotes. Useful for escaping strings
+- capFirst : Capitalizes the first character of the value
+- cut : Removes all values of arg from the given string
+- default : If value evaluates to False / undefined / Empty String, uses the given default
+- diviseBy : Returns True if the value is divisible by the argument
+- first : Returns the first item in a lis
+- last : Returns the last item in a lis
+- lower : Converts a string into all lowercase
+- upper : Converts a string into all uppercase
+- slice : Returns a slice of the list
+- slugify : Removes characters that aren’t alphanumerics, underscores, or hyphens. Converts to lowercase. Also strips leading and trailing whitespace.
+- stringify : Convert a JavaScript object into a string 
+- title : Converts a string into titlecase by making words start with an uppercase character and the remaining characters lowercase
+- truncateWords : Truncates a string if it is longer than the specified number of characters.
+- truncateChars : Truncates a string after a certain number of words
+- wordCount : Returns the number of words
+- urlEncode : Escapes a value for use in a URL
+- date : Formats a date according to the given forma
+- ...
+
+it is possible to use the filters on IF conditions or FOR loops for example.
+
+### Example of Filters
+comming soon
 
 of course you can create your own filter with the minimum of code and time.
 ```js
