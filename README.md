@@ -162,7 +162,7 @@ the Filter module contains by default more than 21 ready-to-use filter to be abl
 - truncateChars : Truncates a string after a certain number of words
 - wordCount : Returns the number of words
 - urlEncode : Escapes a value for use in a URL
-- date : Formats a date according to the given forma
+- date : Formats a date according to the given format
 - ...
 
 it is possible to use the filters on IF conditions or FOR loops for example.
