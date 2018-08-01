@@ -6,7 +6,7 @@ It's Aplha Version not ready for production.
 NB : Please Create the Issues in github if a problem appear.[invock-js Issues](https://github.com/said10/invock-js/issues)
 
 # Table of contents
-
+- [Architecture](#Architecture)
 - [Installation](#installation)
 - [Architecture](#Architecture)
 - [Get Started](#Get Started)
@@ -35,6 +35,9 @@ NB : Please Create the Issues in github if a problem appear.[invock-js Issues](h
 - [Test](#Test)
 - [Ressources](#Ressources)
 - [License](#License)
+
+## Architecture
+![Architecture of invock-js](https://raw.githubusercontent.com/said10/invock-js/master/architecture_of_framework.png)
 
 ## Installation
 
@@ -741,6 +744,8 @@ invock.mount({ parent : "#container", root : "{% App %}" });
 this section to treat the problem that is related with the management of the state of the components in an application that each Framework must face and presents answers for this question. 
 
 invock-js offers a global Store to store all the states for all the components of the application and you can access any component or its data provided that you respect a few small recommendations.
+
+![Data Flow in invock-js](https://raw.githubusercontent.com/said10/invock-js/master/data_flow.png)
 
 we start by telling invock-js that this component will interact with the Store.
 
