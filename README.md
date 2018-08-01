@@ -3,7 +3,7 @@ Javascript Framework for building User Interface Components
 
 It's Aplha Version not ready for production.
 
-NB : Please the Issues in github if a problem appear.[invock-js Issues](https://github.com/said10/invock-js/issues)
+NB : Please Create the Issues in github if a problem appear.[invock-js Issues](https://github.com/said10/invock-js/issues)
 
 # Table of contents
 
